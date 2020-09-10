@@ -25,7 +25,7 @@ I first made a chapter notebook to explore the dataset (predict_prices_explorati
 - used LightGBM, XGBoost and Ridge and Lasso Rregression in cross validation to check for the best algorithem
 - used LightGBM, XGBoost and Ridge in a simple blended model
 
-### Predictiv score on Kaggle
+### Predictive score on Kaggle
 Kaggle Score: 0.13696 (rmsle) which got me in the top 46% of users 
 
 
