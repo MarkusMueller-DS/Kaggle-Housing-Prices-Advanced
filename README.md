@@ -32,6 +32,9 @@ Kaggle Score: 0.13608 (rmsle) which got me in the top 45% of users
 
 
 ## To-Do
+- test different preprocessing steps
+  - Transform skewed numeric features
+- learn more about the machine learning algorithms to do better hyperparameter tuning (use more advanced methods than just hardcoding verious values for each parameter)
 - Feature engineering
 - Stacking ml models
 
