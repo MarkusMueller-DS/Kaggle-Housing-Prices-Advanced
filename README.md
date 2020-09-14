@@ -21,17 +21,18 @@ I first made a chapter notebook to explore the dataset (predict_prices_explorati
 - Visualized numeric and categorical features against the target (SalePrice) for feature selection
 - Log transformation of SalePrice (skewed to the right)
 - Imputed missing values, most of them were encoded to show a lack of a certain feature (so they were not really missing values). For categorical feature I mostly imputed the mode and of numeric the mean or zero, when there were only 1 or 2 values missing.
-- made sure that train and test set have the same features (which was a problem, but then I concatenate them and performed the preprocessing steps in both of them, keeping data leakage in mind).
-- used LightGBM, XGBoost and Ridge and Lasso Rregression in cross validation to check for the best algorithem
-- used LightGBM, XGBoost and Ridge in a simple blended model
+- Made sure that train and test set have the same features (which was a problem, but then I concatenate them and performed the preprocessing steps in both of them, keeping data leakage in mind).
+- Used LightGBM, XGBoost and Ridge and Lasso Rregression in cross validation to check for the best algorithem
+- Used LightGBM, XGBoost and Ridge in a simple blended model
+- Used CatBoost and got a slightly higer score with the blended model
+- Did hyperparameter tuning but didn't had any effect on the cross validation 
 
 ### Predictive score on Kaggle
-Kaggle Score: 0.13696 (rmsle) which got me in the top 46% of users 
+Kaggle Score: 0.13608 (rmsle) which got me in the top 45% of users 
 
 
 ## To-Do
 - Feature engineering
-- Hyperparameter tuning
 - Stacking ml models
 
 
