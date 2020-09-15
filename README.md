@@ -9,7 +9,10 @@ It is your job to predict the sales price for each house. For each Id in the tes
 
 ## Predictive score 
 - mean absolute error on the train-test-split: $14657 (in general the sale price predictions are plus or minus 15000 dollars from the real price)
-- Kaggle Score: 0.13608 (rmsle) which got me in the top 44% of users 
+- Kaggle Score Histroy
+  - 10.10.2020: 0.14469 (rmsle) with Ridge Regression and feature selection
+  - 14.10.2020: 0.13608 (rmsle) with blended model (Ridge Regression, LGBM, CatBoost) and feature selection (top 45% of users)
+  - 15.10.2020: 0.12521 (rmsle) with new blended model (Ridge Regression, LGBM, CatBoost, XGBoost) using nearly evey feature (top 25% of users)
 
 ## Motivation
 After learning data analytics and data science over 7 months now. I wanted to apply what I learned on a dataset that offers a lot of possibilities to implement creative feature engineering and advanced machine learning models to predict the sale price of a house.
