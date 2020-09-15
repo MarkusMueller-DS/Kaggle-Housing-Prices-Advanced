@@ -18,7 +18,7 @@ After learning data analytics and data science over 7 months now. I wanted to ap
 - Data is split into training and test
 
 ## What did I do?
-I first made a chapter notebook to explore the dataset (predict_prices_exploratiion.ipynb), performed various preprocessing steps and visualized the features to select the ones I wanted to use in the final machine learning model. After I explored the dataset and tested the code I created a second notebook (predict_prices_model.ipynb) to only show the necessary steps and to focus more on the machine learning models. Till now I have implemented all the preprocessing and made the first predictions with the basic algorithms and a simple blended model
+I first made a jupyter notebook to explore the dataset (predict_prices_exploratiion.ipynb), performed various preprocessing steps and visualized the features to select the ones I wanted to use in the final machine learning model. After I explored the dataset and tested the code I created a second notebook (predict_prices_model.ipynb) to only show the necessary steps and to focus more on the machine learning models. Till now I have implemented all the preprocessing and made the first predictions with the basic algorithms and a simple blended model
 
 
 ### List with things I did
