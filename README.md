@@ -6,6 +6,10 @@ by Markus Müller
 ## Goal of the competition
 It is your job to predict the sales price for each house. For each Id in the test set, you must predict the value of the SalePrice variable.
 
+## Predictive score 
+- mean absolute error on the train-test-split: $14657 (in general the sale price predictions are plus or minus 15000 dollars from the real price)
+- Kaggle Score: 0.13608 (rmsle) which got me in the top 44% of users 
+
 ## Motivation
 After learning data analytics and data science over 7 months now. I wanted to apply what I learned on a dataset that offers a lot of possibilities to implement creative feature engineering and advanced machine learning models to predict the sale price of a house.
 
@@ -26,9 +30,6 @@ I first made a chapter notebook to explore the dataset (predict_prices_explorati
 - Used LightGBM, XGBoost and Ridge in a simple blended model
 - Used CatBoost and got a slightly higer score with the blended model
 - Did hyperparameter tuning but didn't had any effect on the cross validation 
-
-### Predictive score on Kaggle
-Kaggle Score: 0.13608 (rmsle) which got me in the top 45% of users 
 
 
 ## To-Do
