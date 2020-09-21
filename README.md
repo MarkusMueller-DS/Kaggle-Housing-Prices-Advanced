@@ -47,3 +47,4 @@ I first made a jupyter notebook to explore the dataset (predict_prices_explorati
 ### Files
 - predict_prices_exploration.ipynb: notebook to explore the dataset
 - predict_prices_model.ipynb: notbook with all the preprocessing and basic models
+- Base_model: most up to date model with preprocessing and model evaluation 
