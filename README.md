@@ -8,7 +8,7 @@ by Markus Müller
 It is your job to predict the sales price for each house. For each Id in the test set, you must predict the value of the SalePrice variable.
 
 ## Predictive score 
-- mean absolute error on the train-test-split: $14657 (in general the sale price predictions are plus or minus 15000 dollars from the real price) - using blended model form 14.09
+- mean absolute error on the train-test-split: $14657 (in general the sale price predictions are plus or minus 15000 dollars from the real price) - out of date
 - Kaggle Score Histroy
   - 10.09.2020: 0.14469 (rmsle) with Ridge Regression and feature selection
   - 14.09.2020: 0.13608 (rmsle) with blended model (Ridge Regression, LGBM, CatBoost) and feature selection (top 45% of users)
@@ -48,5 +48,6 @@ I first made a jupyter notebook to explore the dataset (predict_prices_explorati
 
 ### Files
 - predict_prices_exploration.ipynb: notebook to explore the dataset
-- predict_prices_model.ipynb: notbook with all the preprocessing and basic models
-- Base_model: most up to date model with preprocessing and model evaluation 
+- predict_prices_model.ipynb: notbook with all the preprocessing and basic models (out of date)
+- Base_model: notebook with preprocessing and model evaluation
+- Top_Model: most up to date notbook containing the highest performing ml-model
