@@ -8,11 +8,13 @@ by Markus Müller
 It is your job to predict the sales price for each house. For each Id in the test set, you must predict the value of the SalePrice variable.
 
 ## Predictive score 
-- mean absolute error on the train-test-split: $14657 (in general the sale price predictions are plus or minus 15000 dollars from the real price)
+- mean absolute error on the train-test-split: $14657 (in general the sale price predictions are plus or minus 15000 dollars from the real price) - using blended model form 14.09
 - Kaggle Score Histroy
   - 10.09.2020: 0.14469 (rmsle) with Ridge Regression and feature selection
   - 14.09.2020: 0.13608 (rmsle) with blended model (Ridge Regression, LGBM, CatBoost) and feature selection (top 45% of users)
   - 15.09.2020: 0.12521 (rmsle) with new blended model (Ridge Regression, LGBM, CatBoost, XGBoost) using nearly evey feature (top 25% of users)
+  - 22.09.2020: 0.12131 (rmsle) with new blended model using Lasso and ElasticNet Regression each with tuned hyperparameters and transformation of skewed  numeric features (top 13% of users)
+
 
 ## Motivation
 After learning data analytics and data science over 7 months now. I wanted to apply what I learned on a dataset that offers a lot of possibilities to implement creative feature engineering and advanced machine learning models to predict the sale price of a house.
