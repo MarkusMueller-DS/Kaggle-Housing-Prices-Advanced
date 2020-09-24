@@ -14,6 +14,7 @@ It is your job to predict the sales price for each house. For each Id in the tes
   - 14.09.2020: 0.13608 (rmsle) with blended model (Ridge Regression, LGBM, CatBoost) and feature selection (top 45% of users)
   - 15.09.2020: 0.12521 (rmsle) with new blended model (Ridge Regression, LGBM, CatBoost, XGBoost) using nearly evey feature (top 25% of users)
   - 22.09.2020: 0.12131 (rmsle) with new blended model using Lasso and ElasticNet Regression each with tuned hyperparameters and transformation of skewed  numeric features (top 13% of users)
+  - 24.09.2020: 0.12040 (rmsle) using stacking with the same algorithms as before (top 11% of users)
 
 
 ## Motivation
